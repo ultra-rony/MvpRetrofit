@@ -21,3 +21,40 @@ try {
 
 String dateFormatter = DateFormat.getDateTimeInstance().format(date);
 ```
+
+
+# We can create an interface MainActivity
+
+
+```ruby
+interface MainActivityView {
+    // Success
+    void getSuccess(List<MainModel> list);
+    // Error
+    void getError();
+}
+```
+
+# Add this interface to 
+
+
+```ruby
+public class MainActivity extends AppCompatActivity implements MainActivityView
+```
+
+
+# Now in the presenter you can remove all references to MainActivity, and leave only MainActivityView.
+
+```ruby
+public class MainActivityPresenter {
+ 
+    private MainActivityView view;
+ 
+    public void attachView(MainActivityView view) {
+        this.view = view;
+    }
+ 
+    ...
+ 
+}
+```
