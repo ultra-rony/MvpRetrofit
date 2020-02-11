@@ -23,7 +23,7 @@ String dateFormatter = DateFormat.getDateTimeInstance().format(date);
 ```
 
 
-# We can create an interface MainActivity
+# We can create an interface MainActivityView
 
 
 ```ruby
@@ -35,7 +35,7 @@ interface MainActivityView {
 }
 ```
 
-# Add this interface to 
+# Add this interface to MainActivity
 
 
 ```ruby
