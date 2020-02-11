@@ -1,7 +1,7 @@
 # MvpRetrofitParseJsonRecyclerView
 
 
-![test](http://ulus.vegapunk.ru/draft/81434131480411150.jpg =400x150)
+http://ulus.vegapunk.ru/draft/81434131480411150.jpg
 
 
 # libraries
