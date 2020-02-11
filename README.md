@@ -1,7 +1,7 @@
 # MvpRetrofitParseJsonRecyclerView
 
 
-![test](http://ulus.vegapunk.ru/draft/81434131480411150.jpg){:height="500px" width="200px"}
+![test](<img src="http://ulus.vegapunk.ru/draft/81434131480411150.jpg" width="200">)
 
 
 # libraries
